@@ -1,0 +1,11 @@
+<Directory C:\xampp\data\htdocs\mvc\>
+    AllowOverride All
+    Order allow,deny
+    Allow from all
+</Directory>
+
+AddDefaultCharset utf-8
+
+RewriteEngine on
+RewriteBase /
+RewriteRule ^(.*)$ index.php
